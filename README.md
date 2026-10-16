@@ -117,6 +117,20 @@ npm run dev
 
 Open the local address printed by Vite in your browser (usually `http://localhost:5173`). The backend uses port `3000` by default.
 
+## ☁️ Deploy the server to Render
+
+Create a Render **Web Service** for this repository and configure it as follows:
+
+| Setting | Value |
+| --- | --- |
+| Root Directory | `server` |
+| Build Command | `npm install && npm run build` |
+| Start Command | `npm start` |
+
+The build command compiles the TypeScript files into `server/dist`. The start command runs the compiled JavaScript, including the generated `dist/config/db.js` file, so the server's `.js` imports resolve correctly in production.
+
+Add the server environment variables from [Environment variables](#-environment-variables) in the Render dashboard. At minimum, set `MONGODB_URI`, `JWT_SECRET`, and `ZERNIO_API_KEY`. Add the AI and media variables for those features. Render provides the `PORT` value automatically.
+
 ## 🔐 Environment variables
 
 Add secrets only to local `.env` files. Do not commit real API keys or passwords.
