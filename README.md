@@ -2,6 +2,10 @@
 
 SocialFlow is a web app for creating social media content, connecting social accounts, and scheduling posts from one place.
 
+🌐 **Live Demo**: [https://socialflow2.onrender.com](https://socialflow2.onrender.com)  
+📂 **GitHub Repo**: [https://github.com/sahilkumar720/socialFlow](https://github.com/sahilkumar720/socialFlow)  
+📧 **Contact**: sahilkumar7369@gmail.com
+
 ## ✨ What you can do
 
 - 📝 Create an account and sign in.
@@ -18,6 +22,16 @@ SocialFlow is a web app for creating social media content, connecting social acc
 - **Backend:** Node.js, Express, TypeScript
 - **Database:** MongoDB with Mongoose
 - **Integrations:** Zernio, Google Gemini, Leonardo AI, Cloudinary
+
+## Screenshot🖼️
+| Page | Screenshot |
+| --- | --- |
+| Home and live assistant preview | ![SocialFlow home](https://drive.google.com/file/d/1cHse9EcfeBDGhKiK818MbjpUccl2Ko7T/view?usp=drive_link) |
+| Dashboard | ![Dashboard](https://drive.google.com/file/d/1II1-zhgsBTle5HegjZzbiHQhNBDk1rPa/view?usp=drive_link) |
+| Accounts | ![ Accounts](https://drive.google.com/file/d/1AWeRvVoa1c9GdQsJVYUGfWOE8yuKGjU5/view?usp=drive_link) |
+| Scheduler | ![Scheduler ](https://drive.google.com/file/d/12njBTGpf_rxeQN64U68EDZJEni4FnSXL/view?usp=drive_link) |
+| AI Composer | ![AI composer](https://drive.google.com/file/d/1DXqCwGgycovrGROZZ19Keg4Rc3xa6cfF/view?usp=drive_link) |
+| Choose platform | ![Choose platform](https://drive.google.com/file/d/1YpgTVNH5rGk3nIk8cBtZL31H5GczQLU4/view?usp=drive_link) | 
 
 ## 🏗️ Project architecture
 
