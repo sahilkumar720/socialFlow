@@ -1,7 +1,7 @@
-import { Response } from "express";
-import { AuthRequest } from "../middlewares/authMiddlewares.js";
-import { Account } from "../models/Account.js";
-import zernio from '../config/zernio.js';
+import type { Response } from "express";
+import type { AuthRequest } from "../middlewares/authMiddlewares.ts";
+import { Account } from "../models/Account.ts";
+import zernio from '../config/zernio.ts';
 
 
 
