@@ -1,8 +1,7 @@
-import { User } from "../models/user.js";
+import { User } from "../models/user.ts";
 import bcrypt from 'bcrypt'
-import { Request, Response } from "express";
+import type { Request, Response } from "express";
 import jwt from "jsonwebtoken";
-import { AnyARecord } from "node:dns";
 
 
 

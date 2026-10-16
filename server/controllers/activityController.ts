@@ -1,6 +1,6 @@
-import { Response } from "express";
-import { AuthRequest } from "../middlewares/authMiddlewares.js";
-import { ActivityLog } from "../models/ActivityLog.js";
+import type { Response } from "express";
+import type { AuthRequest } from "../middlewares/authMiddlewares.ts";
+import { ActivityLog } from "../models/ActivityLog.ts";
 
 // get all activity
 // get /api/activity

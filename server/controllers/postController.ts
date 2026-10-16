@@ -1,10 +1,10 @@
-import { Response } from "express";
-import { AuthRequest } from "../middlewares/authMiddlewares.js";
+import type { Response } from "express";
+import type { AuthRequest } from "../middlewares/authMiddlewares.ts";
 import { GoogleGenAI } from "@google/genai";
 import axios from "axios";
-import { cloudinary } from "../config/cloundinary.js";
-import { Generation } from "../models/Generation.js";
-import { Post } from "../models/Post.js";
+import { cloudinary } from "../config/cloundinary.ts";
+import { Generation } from "../models/Generation.ts";
+import { Post } from "../models/Post.ts";
 
 // helper to poll leonardo.ai
 

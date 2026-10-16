@@ -1,9 +1,9 @@
 
 import cron from 'node-cron';
-import { Post } from '../models/Post.js';
-import { Account } from '../models/Account.js';
-import zernio from '../config/zernio.js';
-import { ActivityLog } from '../models/ActivityLog.js';
+import { Post } from '../models/Post.ts';
+import { Account } from '../models/Account.ts';
+import zernio from '../config/zernio.ts';
+import { ActivityLog } from '../models/ActivityLog.ts';
 
 
 export const initScheduler = ()=>{

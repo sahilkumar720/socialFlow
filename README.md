@@ -129,6 +129,8 @@ Create a Render **Web Service** for this repository and configure it as follows:
 
 The build command compiles the TypeScript files into `server/dist`. The start command runs the compiled JavaScript, including the generated `dist/config/db.js` file, so the server's `.js` imports resolve correctly in production.
 
+**Important:** If Render's deploy log still says `Running 'node server.ts'`, the service is using an old Start Command that overrides `package.json`. In Render, open **Settings → Build & Deploy**, change the Start Command to `npm start`, save the change, and deploy again.
+
 Add the server environment variables from [Environment variables](#-environment-variables) in the Render dashboard. At minimum, set `MONGODB_URI`, `JWT_SECRET`, and `ZERNIO_API_KEY`. Add the AI and media variables for those features. Render provides the `PORT` value automatically.
 
 ## 🔐 Environment variables
