@@ -1,6 +1,6 @@
 # 🌊 SocialFlow
 
- ### SocialFlow streamlines your social media management by allowing you to create engaging content, connect multiple social accounts, and schedule posts—all from one centralized platform.
+   ✨ **SocialFlow** streamlines your social media management by allowing you to create engaging content, connect multiple social accounts, and schedule posts—all from one centralized platform.
 
 🌐 **Live Demo**: [https://socialflow2.onrender.com](https://socialflow2.onrender.com)  
 📂 **GitHub Repo**: [https://github.com/sahilkumar720/socialFlow](https://github.com/sahilkumar720/socialFlow)  
